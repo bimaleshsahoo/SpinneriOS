@@ -2,7 +2,7 @@
 //  SpinnerViewConstants.swift
 //  SpinerViewiOS
 //
-//  Created by Polosoft on 20/07/18.
+//  Created by SumitKumar on 20/07/18.
 //  Copyright © 2018 SumitKumar. All rights reserved.
 //
 
@@ -15,7 +15,6 @@ struct GLOBAL_CONSTANT {
     static let APP_DELEGATE = UIApplication.shared.delegate! as! AppDelegate
     
 }
-
 
 extension String {
     static func className(_ aClass: AnyClass) -> String {
@@ -34,7 +33,6 @@ public extension UITableView {
         let nib = UINib(nibName: identifier, bundle: nil)
         self.register(nib, forCellReuseIdentifier: identifier)
     }
-    
 }
 
 extension UIView {
