@@ -17,6 +17,7 @@
 		0164B46820C12C4400DC9B7C /* SpinerViewiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164B46720C12C4400DC9B7C /* SpinerViewiOSUITests.swift */; };
 		0164B47620C12C7000DC9B7C /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164B47520C12C7000DC9B7C /* SpinnerView.swift */; };
 		0164B47B20C1537C00DC9B7C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0164B47A20C1537C00DC9B7C /* CustomTableViewCell.swift */; };
+		01772A772105DA380047F6B5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 01772A762105DA380047F6B5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0164B46920C12C4400DC9B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0164B47520C12C7000DC9B7C /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
 		0164B47A20C1537C00DC9B7C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		01772A762105DA380047F6B5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		0164B43B20C12C4100DC9B7C = {
 			isa = PBXGroup;
 			children = (
+				01772A762105DA380047F6B5 /* README.md */,
 				0164B44620C12C4100DC9B7C /* SpinerViewiOS */,
 				0164B45B20C12C4400DC9B7C /* SpinerViewiOSTests */,
 				0164B46620C12C4400DC9B7C /* SpinerViewiOSUITests */,
@@ -240,6 +243,7 @@
 			files = (
 				0164B45220C12C4400DC9B7C /* LaunchScreen.storyboard in Resources */,
 				0164B44F20C12C4400DC9B7C /* Assets.xcassets in Resources */,
+				01772A772105DA380047F6B5 /* README.md in Resources */,
 				0164B44D20C12C4100DC9B7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,7 +453,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.polosoftech.PolosoftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8ac64615-57e2-4a25-a210-f32e2c303524";
 				PROVISIONING_PROFILE_SPECIFIER = polosoft_Dev_23_06_2018;
@@ -469,7 +472,6 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.polosoftech.PolosoftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8ac64615-57e2-4a25-a210-f32e2c303524";
 				PROVISIONING_PROFILE_SPECIFIER = polosoft_Dev_23_06_2018;
